@@ -34,7 +34,6 @@ Most operating systems require you to register the application in some form befo
 The `DesktopNotifications.Avalonia` package offers support for the [Avalonia](https://github.com/AvaloniaUI/Avalonia) project. It doesn't do much on its own, it just provides helpers to register
 the `INotificationManager` with the application builder. You can see an example of it in the Example.Avalonia project.
 
-
 # Help wanted
 
 My MacBook Pro is 11 years old now and it does not run OSX Mojave or higher. Unfortunately, Apple deprecated `NSUserNotificationCenter` with OSX 10.14 and I suppose they want us to use the newer `UNUserNotificationCenter` API instead. I would kindly appreciate any contributions from folks that own a more modern Mac and are interested in implementing the OSX backend using the new API.
